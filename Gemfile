@@ -3,8 +3,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
-
 rails_version = '6.0.2'
 gem 'actionpack', "~> #{rails_version}"
 gem 'actionview', "~> #{rails_version}"
