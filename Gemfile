@@ -20,6 +20,7 @@ gem 'sass-rails', '>= 6'
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails', '~> 5.1.0'
+  gem 'flay', '~> 2.12.0', require: false
   gem 'rspec-rails', '~> 3.0'
   gem 'rubocop', require: false
 end
