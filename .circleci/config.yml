@@ -36,6 +36,9 @@ jobs:
           name: Rubocop
           command: bundle exec rubocop
       - run:
+          name: Flay
+          command: bundle exec flay
+      - run:
           name: Specs
           command: bundle exec rspec
 
